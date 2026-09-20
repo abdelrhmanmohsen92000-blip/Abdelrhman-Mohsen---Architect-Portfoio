@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Full Technical Documentation | Abdelrhman Mohsen</title>
+<meta name="description" content="Complete technical documentation set — floor plans, elevations, sections, wall and facade details, schedules, BOQ and shop drawing families, built for construction.">
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a href="../index.html" class="nav-id">ABDELRHMAN <span>MOHSEN</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="../index.html#work">Work</a>
+      <a href="../index.html#bim">BIM</a>
+      <a href="../index.html#architecture">Design</a>
+      <a href="../index.html#about">About</a>
+      <a href="../index.html#capabilities">Capabilities</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="../index.html#contact" class="btn btn-line">Start a Project</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section-tight" style="padding-top:132px;">
+    <div class="wrap">
+      <a href="../index.html#documentation" class="cs-back">← Back to Home</a>
+      <p class="eyebrow">Full Portfolio</p>
+      <h1 class="display-xl">Technical Documentation</h1>
+      <p style="max-width:640px; margin-top:18px; color:var(--text-dim);">Drawings built for construction, not just presentation — floor plans, elevations, sections, wall and facade details, schedules, BOQ and shop drawing families.</p>
+    </div>
+  </section>
+
+  <section class="section-tight" style="padding-top:0;">
+    <div class="wrap">
+      <div class="doc-grid" data-lightbox-scope>
+        <div class="doc-plate">
+          <div class="thumb" data-lightbox data-full="../img/floorplan.webp" data-caption="Ground floor plan — LOD 350, room names, areas, FFL levels, door/window tags."><img src="../img/thumbs/floorplan.jpg" loading="lazy" decoding="async" alt="Annotated Revit ground floor plan"></div>
+          <div class="doc-note"><div class="t">Floor Plans</div><div class="n">Room names, areas and FFL levels tagged directly from the model.</div></div>
+        </div>
+        <div class="doc-plate">
+          <div class="thumb" data-lightbox data-full="../img/elevation.webp" data-caption="West elevation, fully dimensioned with material callouts."><img src="../img/thumbs/elevation.jpg" loading="lazy" decoding="async" alt="Building elevation drawing with material callouts"></div>
+          <div class="doc-note"><div class="t">Elevations</div><div class="n">Full elevation set with material callouts, cross-checked against the model.</div></div>
+        </div>
+        <div class="doc-plate">
+          <div class="thumb" data-lightbox data-full="../img/bim-section-aa.webp" data-caption="Section A-A, through staircase core — arch &amp; structural, annotated for construction."><img src="../img/thumbs/bim-section-aa.jpg" loading="lazy" decoding="async" alt="Building section through staircase core"></div>
+          <div class="doc-note"><div class="t">Sections</div><div class="n">Architectural and structural sections, annotated for construction.</div></div>
+        </div>
+        <div class="doc-plate">
+          <div class="thumb" data-lightbox data-full="../img/bim-supplychain-detail-wall.jpg" data-caption="Wall section — Supply Administration Building (King Saud Medical City), porcelain cladding, waterproofing and structural glazing build-up, issued for tender."><img src="../img/thumbs/bim-supplychain-detail-wall.jpg" loading="lazy" decoding="async" alt="Annotated wall section detail, real issued-for-tender drawing"></div>
+          <div class="doc-note"><div class="t">Wall &amp; Facade Details</div><div class="n">From the real, issued-for-tender Supply Chain — Riyadh drawing set.</div></div>
+        </div>
+        <div class="doc-plate">
+          <div class="thumb" data-lightbox data-full="../img/schedule.webp" data-caption="Wall material takeoff — automated BOQ, extracted directly from Revit."><img src="../img/thumbs/schedule.jpg" loading="lazy" decoding="async" alt="Revit-generated wall material takeoff schedule"></div>
+          <div class="doc-note"><div class="t">Schedules &amp; BOQ</div><div class="n">Material takeoff and quantities extracted straight from the model.</div></div>
+        </div>
+        <div class="doc-plate">
+          <div class="thumb" data-lightbox data-full="../img/bim-shopdrawing-facade2.webp" data-caption="Shop drawing — exterior facade elevation, construction-ready."><img src="../img/thumbs/bim-shopdrawing-facade2.jpg" loading="lazy" decoding="async" alt="Shop drawing of facade panel system with lighting detail"></div>
+          <div class="doc-note"><div class="t">Shop Drawings &amp; Families</div><div class="n">Panel systems and parametric families built for construction-ready sets.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <p>&copy; <span id="year"></span> Abdelrhman Mohsen — BIM Architect &amp; Architectural Designer</p>
+    <p><a href="../index.html#contact">Start a project →</a></p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+  <button class="lb-arrow lb-prev" id="lbPrev" aria-label="Previous image">←</button>
+  <img decoding="async"  id="lbImg" src="" alt="">
+  <button class="lb-arrow lb-next" id="lbNext" aria-label="Next image">→</button>
+  <div class="lb-cap" id="lbCap"></div>
+</div>
+
+<script src="../script.js" defer></script>
+</body>
+</html>
